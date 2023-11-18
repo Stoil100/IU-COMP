@@ -51,7 +51,7 @@ export default function ProgramPage() {
  
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width:"90vw",maxWidth: '100%',height:"100vh",pt:20 }}>
       <Stepper nonLinear activeStep={activeStep }orientation="vertical">
         {steps.map((label, index) => (
           <Step key={label} completed={completed[index]}>
@@ -65,7 +65,7 @@ export default function ProgramPage() {
        
           <>
             <Typography sx={{ mt: 2, mb: 1, py: 1 }}>
-              Step {activeStep + 1}
+              Събитие {activeStep + 1}
             </Typography>
             <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
               <Button
@@ -74,11 +74,11 @@ export default function ProgramPage() {
                 onClick={handleBack}
                 sx={{ mr: 1 }}
               >
-                Back
+                Предишно
               </Button>
               <Box sx={{ flex: '1 1 auto' }} />
               <Button onClick={handleNext} sx={{ mr: 1 }}>
-                Next
+                Селдващо
               </Button>
               
             
