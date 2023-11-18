@@ -1,10 +1,26 @@
 {
   "files": {
-    "main.css": "/IU-COMP/static/css/main.f2ee10ad.css",
-    "main.js": "/IU-COMP/static/js/main.8aa0b1f8.js",
-    "static/media/profileBg.jpg": "/IU-COMP/static/media/profileBg.0f78ad5a2a8e8e0a02e0.jpg",
-    "static/media/profilePicture.jpg": "/IU-COMP/static/media/profilePicture.f8d58edb04518e9b2454.jpg",
+    "main.css": "/IU-COMP/static/css/main.8a039c91.css",
+    "main.js": "/IU-COMP/static/js/main.7a91e913.js",
+    "static/media/candy.jpg": "/IU-COMP/static/media/candy.c95ec99dfa985bf829b7.jpg",
+    "static/media/person2.jpg": "/IU-COMP/static/media/person2.5afdda3aa37f42ad7982.jpg",
+    "static/media/person1.jpg": "/IU-COMP/static/media/person1.940f13c91c7cc9871e61.jpg",
+    "static/media/tablet.jpg": "/IU-COMP/static/media/tablet.b237c9d8697ff3fae4d0.jpg",
+    "static/media/person3.jpg": "/IU-COMP/static/media/person3.48dcb5d43aab4eee183d.jpg",
+    "static/media/gaming2.jpg": "/IU-COMP/static/media/gaming2.e25dce7e2396e61e0d63.jpg",
+    "static/media/controller.jpg": "/IU-COMP/static/media/controller.164cac3d93bf0065dd5f.jpg",
+    "static/media/gaming3.jpg": "/IU-COMP/static/media/gaming3.17d07c5cee4bfee320da.jpg",
+    "static/media/person5.jpg": "/IU-COMP/static/media/person5.8fce8b2ebac599c5f1e0.jpg",
+    "static/media/person4.jpg": "/IU-COMP/static/media/person4.189c4311ebb78e5de837.jpg",
+    "static/media/gaming1.jpg": "/IU-COMP/static/media/gaming1.a2af8e827cf28ac00796.jpg",
+    "static/media/person6.jpg": "/IU-COMP/static/media/person6.f5c3f2f1965e3024579a.jpg",
+    "static/media/profileBackground.jpeg": "/IU-COMP/static/media/profileBackground.98765084066aff0bffef.jpeg",
+    "static/media/varnaLogo.png": "/IU-COMP/static/media/varnaLogo.83fd31d837992f56a4ac.png",
+    "static/media/logo.png": "/IU-COMP/static/media/logo.251bdc7a54eead7d6787.png",
+    "static/media/profilePicture.jpg": "/IU-COMP/static/media/profilePicture.6f59177182b46ef2f2f2.jpg",
+    "static/media/devinLogo.png": "/IU-COMP/static/media/devinLogo.8e3ca18b41575c46bf7b.png",
     "static/media/cpp.svg": "/IU-COMP/static/media/cpp.20cdf2ab0c3b19f78ca1fd4b2f50331f.svg",
+    "static/media/sonyLogo.png": "/IU-COMP/static/media/sonyLogo.17ed94beb15cc0142bda.png",
     "static/media/react.svg": "/IU-COMP/static/media/react.598d90dd4f36234e376cbc6ccd571550.svg",
     "static/media/csharp.svg": "/IU-COMP/static/media/csharp.6e60a2d26fb6692e5c7679af5ee8ee1d.svg",
     "static/media/node.svg": "/IU-COMP/static/media/node.fbb7745334637b3e2e538b9f48d5b9bd.svg",
@@ -13,11 +29,11 @@
     "index.html": "/IU-COMP/index.html",
     "static/media/css.svg": "/IU-COMP/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/IU-COMP/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.f2ee10ad.css.map": "/IU-COMP/static/css/main.f2ee10ad.css.map",
-    "main.8aa0b1f8.js.map": "/IU-COMP/static/js/main.8aa0b1f8.js.map"
+    "main.8a039c91.css.map": "/IU-COMP/static/css/main.8a039c91.css.map",
+    "main.7a91e913.js.map": "/IU-COMP/static/js/main.7a91e913.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2ee10ad.css",
-    "static/js/main.8aa0b1f8.js"
+    "static/css/main.8a039c91.css",
+    "static/js/main.7a91e913.js"
   ]
 }
