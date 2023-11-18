@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/IU-COMP/static/css/main.8a039c91.css",
-    "main.js": "/IU-COMP/static/js/main.7a91e913.js",
+    "main.js": "/IU-COMP/static/js/main.29368603.js",
     "static/media/candy.jpg": "/IU-COMP/static/media/candy.c95ec99dfa985bf829b7.jpg",
     "static/media/person2.jpg": "/IU-COMP/static/media/person2.5afdda3aa37f42ad7982.jpg",
     "static/media/person1.jpg": "/IU-COMP/static/media/person1.940f13c91c7cc9871e61.jpg",
@@ -30,10 +30,10 @@
     "static/media/css.svg": "/IU-COMP/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/IU-COMP/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "main.8a039c91.css.map": "/IU-COMP/static/css/main.8a039c91.css.map",
-    "main.7a91e913.js.map": "/IU-COMP/static/js/main.7a91e913.js.map"
+    "main.29368603.js.map": "/IU-COMP/static/js/main.29368603.js.map"
   },
   "entrypoints": [
     "static/css/main.8a039c91.css",
-    "static/js/main.7a91e913.js"
+    "static/js/main.29368603.js"
   ]
 }
