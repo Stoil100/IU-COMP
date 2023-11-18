@@ -48,8 +48,9 @@ export const Header = () => {
         />
         <Image src={logo}></Image>
         <LanguageInput />
+        <TextField id="outlined-basic" label="Search" variant="outlined" />
       </Container>
-      <TextField id="outlined-basic" label="Search" variant="outlined" />
+   
     <DrawerSlider open={open} onClose={()=>{setOpen(false)}}/>
     </>
   );
