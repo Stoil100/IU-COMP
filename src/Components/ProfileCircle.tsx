@@ -8,17 +8,18 @@ import {
   ThemeProvider,
   createTheme,
 } from "@mui/material";
-import htmlIcon from "../Assets/html.svg";
-import cssIcon from "../Assets/css.svg";
-import jsIcon from "../Assets/js.svg";
-import tsIcon from "../Assets/ts.svg";
-import reactIcon from "../Assets/react.svg";
-import nodeIcon from "../Assets/node.svg";
-import csharpIcon from "../Assets/csharp.svg";
-import cppIcon from "../Assets/cpp.svg";
+import htmlIcon from "../Assets/profileLogos/html.svg";
+import cssIcon from "../Assets/profileLogos/css.svg";
+import jsIcon from "../Assets/profileLogos/js.svg";
+import tsIcon from "../Assets/profileLogos/ts.svg";
+import reactIcon from "../Assets/profileLogos/react.svg";
+import nodeIcon from "../Assets/profileLogos/node.svg";
+import csharpIcon from "../Assets/profileLogos/csharp.svg";
+import cppIcon from "../Assets/profileLogos/cpp.svg";
 import profilePicture from "../Assets/profilePicture.jpg";
 import { useSprings, animated } from "@react-spring/web";
 import useWindowVisibility from "../Hooks/useWindowVisibility";
+import Reveal from "../Functions/Reveal";
 
 const items = [
   { icon: htmlIcon, progress: 95 },
@@ -90,17 +91,7 @@ const CircularProgressBox = styled(animated.div)`
 `;
 
 const ProfileCircle = () => {
-  const [hasLoaded, setHasLoaded] = useState(false);
   const [isActive, setIsActive] = useState(false);
-  const isVisible = useWindowVisibility();
-
-  useEffect(() => {
-    if (isVisible && hasLoaded) {
-      setIsActive(true);
-    } else {
-      setIsActive(false);
-    }
-  }, [isVisible, hasLoaded]);
   
   const springs = useSprings(
     rotateValues.length,
@@ -141,6 +132,7 @@ const ProfileCircle = () => {
 
   return (
     <ThemeProvider theme={theme}>
+       <Reveal direction='up' onLoad={()=>{setIsActive(true)}}  delay={2}>
       <ProfileBox
         component="ul"
         sx={{
@@ -161,7 +153,7 @@ const ProfileCircle = () => {
                 thickness={2}
                 color="primary"
                 variant="determinate"
-                size={90}
+                size={89}
                 value={items[i].progress}
               />
             </CircularProgressBox>
@@ -170,11 +162,9 @@ const ProfileCircle = () => {
         ))}
         <Image
           src={profilePicture}
-          onClick={() => {
-            setHasLoaded(true);
-          }}
         />
       </ProfileBox>
+      </Reveal>
     </ThemeProvider>
   );
 };
